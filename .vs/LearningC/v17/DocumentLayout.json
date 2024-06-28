@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "LearningC\\cards.c",
               "ToolTip": "C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\cards.c",
               "RelativeToolTip": "LearningC\\cards.c",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAACAAAA",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAHIAAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-06-28T18:14:33.843Z",
               "EditorCaption": ""
@@ -51,8 +51,7 @@
               "RelativeToolTip": "LearningC\\printDays.c",
               "ViewState": "AQIAADMAAAAAAAAAAAAAAB4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-06-27T16:24:27.141Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-27T16:24:27.141Z"
             },
             {
               "$type": "Document",
@@ -64,8 +63,7 @@
               "RelativeToolTip": "LearningC\\reversesString.c",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-06-27T15:49:05.163Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-27T15:49:05.163Z"
             },
             {
               "$type": "Document",
@@ -77,8 +75,7 @@
               "RelativeToolTip": "LearningC\\sealAverage.c",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-06-25T16:28:36.959Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-25T16:28:36.959Z"
             }
           ]
         }
