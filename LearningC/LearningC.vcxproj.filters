@@ -45,5 +45,11 @@
     <ClCompile Include="reversesString.c">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
+    <ClCompile Include="printDays.c">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="cards.c">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

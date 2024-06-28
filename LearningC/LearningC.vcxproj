@@ -128,10 +128,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="albatros.c" />
+    <ClCompile Include="cards.c" />
     <ClCompile Include="circle.c" />
     <ClCompile Include="exo.c" />
     <ClCompile Include="fahrenheitToCelsius.c" />
     <ClCompile Include="marathon.c" />
+    <ClCompile Include="printDays.c" />
     <ClCompile Include="reversesString.c" />
     <ClCompile Include="sealAverage.c" />
     <ClCompile Include="sine.c" />
