@@ -14,10 +14,10 @@ by Lou de Tarade
 
 typedef enum suit{spade, club, heart, diamond}suit; //enum value for each suit of card
 typedef struct card { suit s; short pips; }card; //card struct, pips are represented as an int 0-12 , 12 being king and 0 being ace
-typedef struct stack_deck { card cards[DECK_LEN]; int top; }stack_deck; //card deck
+typedef struct stack_deck { card cards[DECK_LEN]; int top; }stack_deck;
 
 
-int InitializeDeck(card deck[])//Initialize all cards in a deck in a proper order.
+int SortDeck(card deck[])//sort all cards in a deck in a proper order.
 {
 	
 	for (int i = 0; i < 4; i++)//sort for each suit
@@ -93,7 +93,7 @@ int CalculateProbabilities()//calulate the probabilities of combinaison, with a 
 	{
 		//set up deck and shuffle it. regenerate a deck each time to make sure that all probabilities are equal
 		stack_deck deck;
-		InitializeDeck(deck.cards);
+		SortDeck(deck.cards);
 		deck.top = FULL;
 		ShuffleDeck(deck.cards, i);
 
@@ -112,9 +112,7 @@ int CalculateProbabilities()//calulate the probabilities of combinaison, with a 
 		}
 	}
 	
-	total = no_pair + one_pair + two_pair + three_of_kind + four_of_kind + full_house; //calculate total for verification
-
-	//print result
+	total = no_pair + one_pair + two_pair + three_of_kind + four_of_kind + full_house;
 	printf("Probabilities of different combinaison for a sample size of %d :\n", SAMPLE_SIZE);
 	printf("Hand\t|\tCombinations\t|\tProbabilities\n");
 	printf("No Pair\t|\t%d\t|\t%f\n", no_pair, (no_pair * 1.0) / SAMPLE_SIZE);
