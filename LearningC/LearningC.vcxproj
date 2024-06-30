@@ -128,9 +128,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="albatros.c" />
+    <ClCompile Include="atomicElement.c" />
     <ClCompile Include="binaryTree.c" />
     <ClCompile Include="cards.c" />
     <ClCompile Include="circle.c" />
+    <ClCompile Include="doubleLinkedList.c" />
     <ClCompile Include="exo.c" />
     <ClCompile Include="fahrenheitToCelsius.c" />
     <ClCompile Include="list.c" />

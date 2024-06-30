@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C96345CB-F7A9-411F-9808-4E35AFA19BD7}|LearningC\\LearningC.vcxproj|C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\binaryTree.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C96345CB-F7A9-411F-9808-4E35AFA19BD7}|LearningC\\LearningC.vcxproj|solutionrelative:LearningC\\binaryTree.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{C96345CB-F7A9-411F-9808-4E35AFA19BD7}|LearningC\\LearningC.vcxproj|C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\doubleLinkedList.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C96345CB-F7A9-411F-9808-4E35AFA19BD7}|LearningC\\LearningC.vcxproj|solutionrelative:LearningC\\doubleLinkedList.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C96345CB-F7A9-411F-9808-4E35AFA19BD7}|LearningC\\LearningC.vcxproj|C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\list.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -15,12 +15,12 @@
       "RelativeMoniker": "D:0:0:{C96345CB-F7A9-411F-9808-4E35AFA19BD7}|LearningC\\LearningC.vcxproj|solutionrelative:LearningC\\test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C96345CB-F7A9-411F-9808-4E35AFA19BD7}|LearningC\\LearningC.vcxproj|C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\cards.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C96345CB-F7A9-411F-9808-4E35AFA19BD7}|LearningC\\LearningC.vcxproj|solutionrelative:LearningC\\cards.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C96345CB-F7A9-411F-9808-4E35AFA19BD7}|LearningC\\LearningC.vcxproj|C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\reversesString.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C96345CB-F7A9-411F-9808-4E35AFA19BD7}|LearningC\\LearningC.vcxproj|solutionrelative:LearningC\\reversesString.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96345CB-F7A9-411F-9808-4E35AFA19BD7}|LearningC\\LearningC.vcxproj|C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\cards.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C96345CB-F7A9-411F-9808-4E35AFA19BD7}|LearningC\\LearningC.vcxproj|solutionrelative:LearningC\\cards.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C96345CB-F7A9-411F-9808-4E35AFA19BD7}|LearningC\\LearningC.vcxproj|C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\printDays.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -43,14 +43,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "binaryTree.c",
-              "DocumentMoniker": "C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\binaryTree.c",
-              "RelativeDocumentMoniker": "LearningC\\binaryTree.c",
-              "ToolTip": "C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\binaryTree.c",
-              "RelativeToolTip": "LearningC\\binaryTree.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAA0AAAA",
+              "Title": "doubleLinkedList.c",
+              "DocumentMoniker": "C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\doubleLinkedList.c",
+              "RelativeDocumentMoniker": "LearningC\\doubleLinkedList.c",
+              "ToolTip": "C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\doubleLinkedList.c",
+              "RelativeToolTip": "LearningC\\doubleLinkedList.c",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADwAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-06-29T14:50:09.741Z",
+              "WhenOpened": "2024-06-30T01:56:21.28Z",
               "EditorCaption": ""
             },
             {
@@ -61,7 +61,7 @@
               "RelativeDocumentMoniker": "LearningC\\list.c",
               "ToolTip": "C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\list.c",
               "RelativeToolTip": "LearningC\\list.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAAAcwCsAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-06-29T14:01:16.361Z",
               "EditorCaption": ""
@@ -74,14 +74,14 @@
               "RelativeDocumentMoniker": "LearningC\\test.c",
               "ToolTip": "C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\test.c",
               "RelativeToolTip": "LearningC\\test.c",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAF4AAAAzAAAA",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-06-28T21:47:40.094Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "cards.c",
               "DocumentMoniker": "C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\cards.c",
               "RelativeDocumentMoniker": "LearningC\\cards.c",
@@ -105,13 +105,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "reversesString.c",
               "DocumentMoniker": "C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\reversesString.c",
               "RelativeDocumentMoniker": "LearningC\\reversesString.c",
               "ToolTip": "C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\reversesString.c",
               "RelativeToolTip": "LearningC\\reversesString.c",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABYAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-06-27T15:49:05.163Z"
             },

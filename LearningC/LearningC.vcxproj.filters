@@ -57,5 +57,11 @@
     <ClCompile Include="binaryTree.c">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
+    <ClCompile Include="atomicElement.c">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="doubleLinkedList.c">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
