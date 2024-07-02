@@ -63,5 +63,14 @@
     <ClCompile Include="doubleLinkedList.c">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
+    <ClCompile Include="hw_prog.c">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="fileDoubleSpace.c">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="fileToArray.c">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

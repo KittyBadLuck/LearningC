@@ -19,7 +19,8 @@ void read_data(FILE* ptr, int d[], int size)
 			fscanf(ptr, "%*d"); //skip first
 		else
 			if (fscanf(ptr, "%d", &d[i - 1]) != 1)
-				d[i - 1] = 0;
+				printf("no proper value found at the %d position", i - 1);
+				d[i-1] = 0;
 	}
 }
 
@@ -37,7 +38,7 @@ void print_data(int d[], int size, FILE* ofp) //print data of array of int to st
 	for (i = 0; i < size; i++)
 	{
 		printf("%d\t", d[i]);
-		fprintf(ofp, "%d\t", d[i]);
+		fprintf(ofp,"%d\t", d[i]);
 		if ((i + 1) % 10 == 0)
 		{
 			fprintf(ofp, "\n");
@@ -71,7 +72,7 @@ double average(int d[], int size) //return average of an array of int as a doubl
 	return (avg / size);
 }
 
-int main(int argc, char* argv[])
+int main(int argc, char*argv[])
 {
 
 	if (argc != 3) //verify number of args
@@ -82,14 +83,14 @@ int main(int argc, char* argv[])
 
 	//declarations
 	int i;
-	FILE* ifp, * ofp;
+	FILE* ifp,* ofp;
 	double avg;
 	int max;
 
 	ifp = fopen(argv[1], "r");
 	ofp = fopen(argv[2], "w+");
 
-	int sz = find_size(ifp);
+    int sz = find_size(ifp);
 
 	int* data;
 	data = (int*)malloc(sizeof(int) * sz);
@@ -103,8 +104,8 @@ int main(int argc, char* argv[])
 	print_data(data, sz, ofp);
 
 	avg = average(data, sz);
-	fprintf(ofp, "\n average was %10f", avg);
-	printf("\n average was %10f", avg);
+	fprintf(ofp, "\n average was %10f", avg );
+	printf( "\n average was %10f", avg);
 
 	max = find_max(data, sz);
 	fprintf(ofp, "\n max was %d", max);
