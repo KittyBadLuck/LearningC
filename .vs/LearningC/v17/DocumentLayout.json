@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{C96345CB-F7A9-411F-9808-4E35AFA19BD7}|LearningC\\LearningC.vcxproj|solutionrelative:LearningC\\doubleLinkedList.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C96345CB-F7A9-411F-9808-4E35AFA19BD7}|LearningC\\LearningC.vcxproj|C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\list.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C96345CB-F7A9-411F-9808-4E35AFA19BD7}|LearningC\\LearningC.vcxproj|solutionrelative:LearningC\\list.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C96345CB-F7A9-411F-9808-4E35AFA19BD7}|LearningC\\LearningC.vcxproj|C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C96345CB-F7A9-411F-9808-4E35AFA19BD7}|LearningC\\LearningC.vcxproj|solutionrelative:LearningC\\test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96345CB-F7A9-411F-9808-4E35AFA19BD7}|LearningC\\LearningC.vcxproj|C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\list.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C96345CB-F7A9-411F-9808-4E35AFA19BD7}|LearningC\\LearningC.vcxproj|solutionrelative:LearningC\\list.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C96345CB-F7A9-411F-9808-4E35AFA19BD7}|LearningC\\LearningC.vcxproj|C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\reversesString.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -48,14 +48,14 @@
               "RelativeDocumentMoniker": "LearningC\\doubleLinkedList.c",
               "ToolTip": "C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\doubleLinkedList.c",
               "RelativeToolTip": "LearningC\\doubleLinkedList.c",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAADwAAAAkAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-06-30T01:56:21.28Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "list.c",
               "DocumentMoniker": "C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\list.c",
               "RelativeDocumentMoniker": "LearningC\\list.c",
@@ -63,18 +63,17 @@
               "RelativeToolTip": "LearningC\\list.c",
               "ViewState": "AQIAABcAAAAAAAAAAAAcwCsAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-06-29T14:01:16.361Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-29T14:01:16.361Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "test.c",
               "DocumentMoniker": "C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\test.c",
               "RelativeDocumentMoniker": "LearningC\\test.c",
-              "ToolTip": "C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\test.c",
-              "RelativeToolTip": "LearningC\\test.c",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAAAB0AAAAAAAAA",
+              "ToolTip": "C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\test.c*",
+              "RelativeToolTip": "LearningC\\test.c*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-06-28T21:47:40.094Z",
               "EditorCaption": ""
