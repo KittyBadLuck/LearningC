@@ -1,122 +1,86 @@
-/* Use File I/O
-Open and read a file of integers into an array that is created with the first integer telling you how many to read.
-Print the min, max and average .
-Lou de Tarade
-02/07/2024*/
-
 #include <stdio.h>
-#include <stdlib.h>
+#include<stdlib.h>
 
-
-void read_data(FILE* ptr, int d[], int size)
+struct node
 {
-	int i = 0;
-	int value = 0; //used for checking
-	rewind(ptr);
-	for (i = 0; i <= size; i++)
-	{
-		if (i == 0)
-			fscanf(ptr, "%*d"); //skip first
-		else
-			if (fscanf(ptr, "%d", &d[i - 1]) != 1)
-				d[i - 1] = 0;
-	}
+    int key;
+    struct node* left;
+    struct node* right;
+};
+
+struct node* root;
+
+struct node* new_node(int a)
+{
+    struct node* new;
+    new = (struct node*)malloc(sizeof(struct node));
+    new->key = a;
+    new->left = NULL;
+    new->right = NULL;
+    return new;
+}
+struct node* insert(struct node* root, int key)
+{
+    if (root == NULL)
+    {
+        root = new_node(key);
+        return root;
+    }
+    else
+    {
+        if (key < root->key)
+        {
+            root->left = insert(root->left, key);
+        }
+        else
+        {
+            root->right = insert(root->right, key);
+        }
+        return root;
+    }
 }
 
-int find_size(FILE* ptr) //find the size of the array to create with first value
+void inorder(struct node* root)
 {
-	int sz;
-	rewind(ptr);
-	fscanf(ptr, "%d", &sz);
-	return sz;
+    if (root != NULL)
+    {
+        inorder(root->left);
+        printf("%d-", root->key);
+        inorder(root->right);
+    }
 }
 
-void print_data(int d[], int size, FILE* ofp) //print data of array of int to string to screen and file
+void main()
 {
-	int i;
-	for (i = 0; i < size; i++)
-	{
-		printf("%d\t", d[i]);
-		fprintf(ofp, "%d\t", d[i]);
-		if ((i + 1) % 10 == 0)
-		{
-			fprintf(ofp, "\n");
-			printf("\n");
-		}
-	}
-}
-
-int find_max(int d[], int size) //find the max value of an array of int
-{
-	int max = 0;
-	for (int i = 0; i < size; i++)
-	{
-		if (d[i] > max)
-			max = d[i];
-	}
-
-	return max;
-}
-
-double average(int d[], int size) //return average of an array of int as a double
-{
-	int i;
-	double avg = 0.0;
-
-	for (i = 0; i < size; i++)
-	{
-		avg += d[i];
-	}
-
-	return (avg / size);
-}
-
-int main(int argc, char* argv[])
-{
-
-	if (argc != 3) //verify number of args
-	{
-		printf("Need executable inputfile outputfile \n");
-		exit(1);
-	}
-
-	//declarations
-	int i;
-	FILE* ifp, * ofp;
-	double avg;
-	int max;
-
-	ifp = fopen(argv[1], "r");
-	ofp = fopen(argv[2], "w+");
-
-	int sz = find_size(ifp);
-
-	int* data;
-	data = (int*)malloc(sizeof(int) * sz);
-
-	read_data(ifp, data, sz);
-
-	//print everything
-	fflush(ofp);
-	fprintf(ofp, "List of %d int is: ", sz);
-	printf("List of %d int is: ", sz);
-	print_data(data, sz, ofp);
-
-	avg = average(data, sz);
-	fprintf(ofp, "\n average was %10f", avg);
-	printf("\n average was %10f", avg);
-
-	max = find_max(data, sz);
-	fprintf(ofp, "\n max was %d", max);
-	printf("\n max was %d", max);
-
-
-	fprintf(ofp, "\n\n");
-	printf("\n\n");
-
-
-	fclose(ifp);
-	fclose(ofp);
-
-	return 0;
+    struct node* root;
+    root = NULL;
+    int choice, n, n1, n2;
+    printf("First Select Insert\n Enter 1\n");
+    printf("Insert All value (4 ,9 ,11, 4, 5)\n");
+    printf("Then Select 2 ( Inorder ) option");
+    do
+    {
+        printf("\n\t******Main-Menu******");
+        printf("\n\t1.Insert \n\t2.Inorder \n\t3.Exit");
+        printf("\nEnter Choice: ");
+        scanf("%d", &choice);
+        switch (choice)
+        {
+        case 1:
+            printf("Enter key to be entered: ");
+            scanf("%d", &n);
+            root = insert(root, n);
+            break;
+        case 2:
+            printf("In-order of Following Tree\n");
+            inorder(root);
+            break;
+        case 3:
+            exit(1);
+            break;
+        default:
+            printf("invalid..");
+            break;
+        }
+    } while (1);
 }

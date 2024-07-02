@@ -137,6 +137,7 @@
     <ClCompile Include="fahrenheitToCelsius.c" />
     <ClCompile Include="fileDoubleSpace.c" />
     <ClCompile Include="fileToArray.c" />
+    <ClCompile Include="fileToTree.c" />
     <ClCompile Include="hw_prog.c" />
     <ClCompile Include="list.c" />
     <ClCompile Include="marathon.c" />

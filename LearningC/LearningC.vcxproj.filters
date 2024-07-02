@@ -72,5 +72,8 @@
     <ClCompile Include="fileToArray.c">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
+    <ClCompile Include="fileToTree.c">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
