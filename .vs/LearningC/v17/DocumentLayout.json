@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C96345CB-F7A9-411F-9808-4E35AFA19BD7}|LearningC\\LearningC.vcxproj|C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\list.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C96345CB-F7A9-411F-9808-4E35AFA19BD7}|LearningC\\LearningC.vcxproj|solutionrelative:LearningC\\list.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C96345CB-F7A9-411F-9808-4E35AFA19BD7}|LearningC\\LearningC.vcxproj|C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\fileToArray.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C96345CB-F7A9-411F-9808-4E35AFA19BD7}|LearningC\\LearningC.vcxproj|solutionrelative:LearningC\\fileToArray.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -23,6 +27,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "list.c",
+              "DocumentMoniker": "C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\list.c",
+              "RelativeDocumentMoniker": "LearningC\\list.c",
+              "ToolTip": "C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\list.c",
+              "RelativeToolTip": "LearningC\\list.c",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAAHYAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-07-02T19:03:36.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "fileToArray.c",
               "DocumentMoniker": "C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\fileToArray.c",
               "RelativeDocumentMoniker": "LearningC\\fileToArray.c",
@@ -35,7 +52,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "test.c",
               "DocumentMoniker": "C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\test.c",
               "RelativeDocumentMoniker": "LearningC\\test.c",
@@ -43,8 +60,7 @@
               "RelativeToolTip": "LearningC\\test.c",
               "ViewState": "AQIAAD0AAAAAAAAAAAAcwGYAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-06-28T21:47:40.094Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-28T21:47:40.094Z"
             }
           ]
         }
