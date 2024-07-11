@@ -13,67 +13,100 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Fichiers sources\c">
+      <UniqueIdentifier>{0d0c6507-301f-49aa-a634-59a4cfb8ecf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\cpp">
+      <UniqueIdentifier>{5114cf9e-ddbf-48cf-987c-d7391303aa26}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="circle.c">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="marathon.c">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="fahrenheitToCelsius.c">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="exo.c">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
     <ClCompile Include="albatros.c">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="sphere.c">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="sine.c">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="sealAverage.c">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="test.c">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="reversesString.c">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="printDays.c">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="cards.c">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="list.c">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="binaryTree.c">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers sources\c</Filter>
     </ClCompile>
     <ClCompile Include="atomicElement.c">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers sources\c</Filter>
+    </ClCompile>
+    <ClCompile Include="binaryTree.c">
+      <Filter>Fichiers sources\c</Filter>
+    </ClCompile>
+    <ClCompile Include="cards.c">
+      <Filter>Fichiers sources\c</Filter>
+    </ClCompile>
+    <ClCompile Include="circle.c">
+      <Filter>Fichiers sources\c</Filter>
     </ClCompile>
     <ClCompile Include="doubleLinkedList.c">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers sources\c</Filter>
     </ClCompile>
-    <ClCompile Include="hw_prog.c">
-      <Filter>Fichiers sources</Filter>
+    <ClCompile Include="exo.c">
+      <Filter>Fichiers sources\c</Filter>
+    </ClCompile>
+    <ClCompile Include="fahrenheitToCelsius.c">
+      <Filter>Fichiers sources\c</Filter>
     </ClCompile>
     <ClCompile Include="fileDoubleSpace.c">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers sources\c</Filter>
     </ClCompile>
     <ClCompile Include="fileToArray.c">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers sources\c</Filter>
     </ClCompile>
     <ClCompile Include="fileToTree.c">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers sources\c</Filter>
+    </ClCompile>
+    <ClCompile Include="hw_prog.c">
+      <Filter>Fichiers sources\c</Filter>
+    </ClCompile>
+    <ClCompile Include="list.c">
+      <Filter>Fichiers sources\c</Filter>
+    </ClCompile>
+    <ClCompile Include="marathon.c">
+      <Filter>Fichiers sources\c</Filter>
+    </ClCompile>
+    <ClCompile Include="printDays.c">
+      <Filter>Fichiers sources\c</Filter>
+    </ClCompile>
+    <ClCompile Include="reversesString.c">
+      <Filter>Fichiers sources\c</Filter>
+    </ClCompile>
+    <ClCompile Include="sealAverage.c">
+      <Filter>Fichiers sources\c</Filter>
+    </ClCompile>
+    <ClCompile Include="sine.c">
+      <Filter>Fichiers sources\c</Filter>
+    </ClCompile>
+    <ClCompile Include="sphere.c">
+      <Filter>Fichiers sources\c</Filter>
+    </ClCompile>
+    <ClCompile Include="test.c">
+      <Filter>Fichiers sources\c</Filter>
+    </ClCompile>
+    <ClCompile Include="milesToKilometers.cpp">
+      <Filter>Fichiers sources\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="newFeature.cpp">
+      <Filter>Fichiers sources\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="dice.cpp">
+      <Filter>Fichiers sources\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="sumTemplate.cpp">
+      <Filter>Fichiers sources\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="codeConversion.cpp">
+      <Filter>Fichiers sources\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="point.cpp">
+      <Filter>Fichiers sources\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Dijikstra.cpp">
+      <Filter>Fichiers sources\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="slist.cpp">
+      <Filter>Fichiers sources\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="isConnectedGraph.cpp">
+      <Filter>Fichiers sources\cpp</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

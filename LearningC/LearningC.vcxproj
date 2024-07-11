@@ -132,6 +132,9 @@
     <ClCompile Include="binaryTree.c" />
     <ClCompile Include="cards.c" />
     <ClCompile Include="circle.c" />
+    <ClCompile Include="codeConversion.cpp" />
+    <ClCompile Include="dice.cpp" />
+    <ClCompile Include="Dijikstra.cpp" />
     <ClCompile Include="doubleLinkedList.c" />
     <ClCompile Include="exo.c" />
     <ClCompile Include="fahrenheitToCelsius.c" />
@@ -139,13 +142,19 @@
     <ClCompile Include="fileToArray.c" />
     <ClCompile Include="fileToTree.c" />
     <ClCompile Include="hw_prog.c" />
+    <ClCompile Include="isConnectedGraph.cpp" />
     <ClCompile Include="list.c" />
     <ClCompile Include="marathon.c" />
+    <ClCompile Include="milesToKilometers.cpp" />
+    <ClCompile Include="newFeature.cpp" />
+    <ClCompile Include="point.cpp" />
     <ClCompile Include="printDays.c" />
     <ClCompile Include="reversesString.c" />
     <ClCompile Include="sealAverage.c" />
     <ClCompile Include="sine.c" />
+    <ClCompile Include="slist.cpp" />
     <ClCompile Include="sphere.c" />
+    <ClCompile Include="sumTemplate.cpp" />
     <ClCompile Include="test.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

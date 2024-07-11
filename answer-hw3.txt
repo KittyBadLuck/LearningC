@@ -1,5 +1,0 @@
-Data read from file:
-Array size: 4
-Array elements: 9 11 4 5
-Average: 7.25
-Maximum: 11

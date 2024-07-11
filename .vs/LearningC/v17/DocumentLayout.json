@@ -3,6 +3,42 @@
   "WorkspaceRootPath": "C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C96345CB-F7A9-411F-9808-4E35AFA19BD7}|LearningC\\LearningC.vcxproj|C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\slist.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C96345CB-F7A9-411F-9808-4E35AFA19BD7}|LearningC\\LearningC.vcxproj|solutionrelative:LearningC\\slist.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96345CB-F7A9-411F-9808-4E35AFA19BD7}|LearningC\\LearningC.vcxproj|C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\sumTemplate.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C96345CB-F7A9-411F-9808-4E35AFA19BD7}|LearningC\\LearningC.vcxproj|solutionrelative:LearningC\\sumTemplate.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96345CB-F7A9-411F-9808-4E35AFA19BD7}|LearningC\\LearningC.vcxproj|C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\isConnectedGraph.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C96345CB-F7A9-411F-9808-4E35AFA19BD7}|LearningC\\LearningC.vcxproj|solutionrelative:LearningC\\isConnectedGraph.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96345CB-F7A9-411F-9808-4E35AFA19BD7}|LearningC\\LearningC.vcxproj|C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\Dijikstra.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C96345CB-F7A9-411F-9808-4E35AFA19BD7}|LearningC\\LearningC.vcxproj|solutionrelative:LearningC\\Dijikstra.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96345CB-F7A9-411F-9808-4E35AFA19BD7}|LearningC\\LearningC.vcxproj|C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\dice.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C96345CB-F7A9-411F-9808-4E35AFA19BD7}|LearningC\\LearningC.vcxproj|solutionrelative:LearningC\\dice.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96345CB-F7A9-411F-9808-4E35AFA19BD7}|LearningC\\LearningC.vcxproj|C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\point.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C96345CB-F7A9-411F-9808-4E35AFA19BD7}|LearningC\\LearningC.vcxproj|solutionrelative:LearningC\\point.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96345CB-F7A9-411F-9808-4E35AFA19BD7}|LearningC\\LearningC.vcxproj|C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\codeConversion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C96345CB-F7A9-411F-9808-4E35AFA19BD7}|LearningC\\LearningC.vcxproj|solutionrelative:LearningC\\codeConversion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96345CB-F7A9-411F-9808-4E35AFA19BD7}|LearningC\\LearningC.vcxproj|C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\newFeature.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C96345CB-F7A9-411F-9808-4E35AFA19BD7}|LearningC\\LearningC.vcxproj|solutionrelative:LearningC\\newFeature.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96345CB-F7A9-411F-9808-4E35AFA19BD7}|LearningC\\LearningC.vcxproj|C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\milesToKilometers.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C96345CB-F7A9-411F-9808-4E35AFA19BD7}|LearningC\\LearningC.vcxproj|solutionrelative:LearningC\\milesToKilometers.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C96345CB-F7A9-411F-9808-4E35AFA19BD7}|LearningC\\LearningC.vcxproj|C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C96345CB-F7A9-411F-9808-4E35AFA19BD7}|LearningC\\LearningC.vcxproj|solutionrelative:LearningC\\test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -14,11 +50,120 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "isConnectedGraph.cpp",
+              "DocumentMoniker": "C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\isConnectedGraph.cpp",
+              "RelativeDocumentMoniker": "LearningC\\isConnectedGraph.cpp",
+              "ToolTip": "C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\isConnectedGraph.cpp",
+              "RelativeToolTip": "LearningC\\isConnectedGraph.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-09T22:04:42.047Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "slist.cpp",
+              "DocumentMoniker": "C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\slist.cpp",
+              "RelativeDocumentMoniker": "LearningC\\slist.cpp",
+              "ToolTip": "C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\slist.cpp",
+              "RelativeToolTip": "LearningC\\slist.cpp",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAGIAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-09T21:06:06.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dijikstra.cpp",
+              "DocumentMoniker": "C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\Dijikstra.cpp",
+              "RelativeDocumentMoniker": "LearningC\\Dijikstra.cpp",
+              "ToolTip": "C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\Dijikstra.cpp",
+              "RelativeToolTip": "LearningC\\Dijikstra.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-09T20:25:50.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "point.cpp",
+              "DocumentMoniker": "C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\point.cpp",
+              "RelativeDocumentMoniker": "LearningC\\point.cpp",
+              "ToolTip": "C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\point.cpp",
+              "RelativeToolTip": "LearningC\\point.cpp",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-08T16:58:17.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "codeConversion.cpp",
+              "DocumentMoniker": "C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\codeConversion.cpp",
+              "RelativeDocumentMoniker": "LearningC\\codeConversion.cpp",
+              "ToolTip": "C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\codeConversion.cpp",
+              "RelativeToolTip": "LearningC\\codeConversion.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-05T16:34:48.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "sumTemplate.cpp",
+              "DocumentMoniker": "C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\sumTemplate.cpp",
+              "RelativeDocumentMoniker": "LearningC\\sumTemplate.cpp",
+              "ToolTip": "C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\sumTemplate.cpp",
+              "RelativeToolTip": "LearningC\\sumTemplate.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-05T16:18:02.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "dice.cpp",
+              "DocumentMoniker": "C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\dice.cpp",
+              "RelativeDocumentMoniker": "LearningC\\dice.cpp",
+              "ToolTip": "C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\dice.cpp",
+              "RelativeToolTip": "LearningC\\dice.cpp",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAcwDMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-04T17:07:24.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "newFeature.cpp",
+              "DocumentMoniker": "C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\newFeature.cpp",
+              "RelativeDocumentMoniker": "LearningC\\newFeature.cpp",
+              "ToolTip": "C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\newFeature.cpp",
+              "RelativeToolTip": "LearningC\\newFeature.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-03T17:20:52.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "milesToKilometers.cpp",
+              "DocumentMoniker": "C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\milesToKilometers.cpp",
+              "RelativeDocumentMoniker": "LearningC\\milesToKilometers.cpp",
+              "ToolTip": "C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\milesToKilometers.cpp",
+              "RelativeToolTip": "LearningC\\milesToKilometers.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-03T16:47:20.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "test.c",
               "DocumentMoniker": "C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\test.c",
               "RelativeDocumentMoniker": "LearningC\\test.c",
@@ -26,8 +171,7 @@
               "RelativeToolTip": "LearningC\\test.c",
               "ViewState": "AQIAACgAAAAAAAAAAAAcwFUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-06-28T21:47:40.094Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-28T21:47:40.094Z"
             }
           ]
         }

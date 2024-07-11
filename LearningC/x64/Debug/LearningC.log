@@ -1,0 +1,65 @@
+﻿  albatros.c
+  atomicElement.c
+C:\Users\Lou de TARADE\Documents\GitHub\LearningC\LearningC\atomicElement.c(37,15): error C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\Users\Lou de TARADE\Documents\GitHub\LearningC\LearningC\atomicElement.c(38,12): error C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\Users\Lou de TARADE\Documents\GitHub\LearningC\LearningC\atomicElement.c(71,7): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lou de TARADE\Documents\GitHub\LearningC\LearningC\atomicElement.c(81,4): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lou de TARADE\Documents\GitHub\LearningC\LearningC\atomicElement.c(55,14): warning C4101: 'list_of_elem': unreferenced local variable
+  binaryTree.c
+  cards.c
+C:\Users\Lou de TARADE\Documents\GitHub\LearningC\LearningC\cards.c(37,2): warning C4013: 'srand' undefined; assuming extern returning int
+C:\Users\Lou de TARADE\Documents\GitHub\LearningC\LearningC\cards.c(40,13): warning C4013: 'rand' undefined; assuming extern returning int
+C:\Users\Lou de TARADE\Documents\GitHub\LearningC\LearningC\cards.c(104,11): warning C4013: 'CheckHand' undefined; assuming extern returning int
+  circle.c
+C:\Users\Lou de TARADE\Documents\GitHub\LearningC\LearningC\circle.c(12,2): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  doubleLinkedList.c
+C:\Users\Lou de TARADE\Documents\GitHub\LearningC\LearningC\doubleLinkedList.c(79,30): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\Lou de TARADE\Documents\GitHub\LearningC\LearningC\doubleLinkedList.c(99,8): warning C4013: 'time' undefined; assuming extern returning int
+C:\Users\Lou de TARADE\Documents\GitHub\LearningC\LearningC\doubleLinkedList.c(96,7): warning C4101: 'list_of_int': unreferenced local variable
+  exo.c
+  fahrenheitToCelsius.c
+C:\Users\Lou de TARADE\Documents\GitHub\LearningC\LearningC\fahrenheitToCelsius.c(13,30): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Lou de TARADE\Documents\GitHub\LearningC\LearningC\fahrenheitToCelsius.c(12,2): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  fileDoubleSpace.c
+C:\Users\Lou de TARADE\Documents\GitHub\LearningC\LearningC\fileDoubleSpace.c(41,8): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lou de TARADE\Documents\GitHub\LearningC\LearningC\fileDoubleSpace.c(42,8): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  fileToArray.c
+C:\Users\Lou de TARADE\Documents\GitHub\LearningC\LearningC\fileToArray.c(19,4): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lou de TARADE\Documents\GitHub\LearningC\LearningC\fileToArray.c(21,8): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lou de TARADE\Documents\GitHub\LearningC\LearningC\fileToArray.c(31,2): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lou de TARADE\Documents\GitHub\LearningC\LearningC\fileToArray.c(90,8): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lou de TARADE\Documents\GitHub\LearningC\LearningC\fileToArray.c(91,8): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lou de TARADE\Documents\GitHub\LearningC\LearningC\fileToArray.c(85,6): warning C4101: 'i': unreferenced local variable
+  fileToTree.c
+C:\Users\Lou de TARADE\Documents\GitHub\LearningC\LearningC\fileToTree.c(51,4): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lou de TARADE\Documents\GitHub\LearningC\LearningC\fileToTree.c(53,8): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lou de TARADE\Documents\GitHub\LearningC\LearningC\fileToTree.c(64,2): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lou de TARADE\Documents\GitHub\LearningC\LearningC\fileToTree.c(92,8): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lou de TARADE\Documents\GitHub\LearningC\LearningC\fileToTree.c(90,15): warning C4101: 'ofp': unreferenced local variable
+C:\Users\Lou de TARADE\Documents\GitHub\LearningC\LearningC\fileToTree.c(89,6): warning C4101: 'i': unreferenced local variable
+  hw_prog.c
+C:\Users\Lou de TARADE\Documents\GitHub\LearningC\LearningC\hw_prog.c(12,9): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lou de TARADE\Documents\GitHub\LearningC\LearningC\hw_prog.c(46,8): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lou de TARADE\Documents\GitHub\LearningC\LearningC\hw_prog.c(42,6): warning C4101: 'i': unreferenced local variable
+  list.c
+C:\Users\Lou de TARADE\Documents\GitHub\LearningC\LearningC\list.c(94,9): warning C4477: 'printf' : format string '%lu' requires an argument of type 'unsigned long', but variadic argument 1 has type 'size_t'
+C:\Users\Lou de TARADE\Documents\GitHub\LearningC\LearningC\list.c(94,9): message : consider using '%zu' in the format string
+C:\Users\Lou de TARADE\Documents\GitHub\LearningC\LearningC\list.c(90,7): warning C4101: 'list_of_int': unreferenced local variable
+  marathon.c
+C:\Users\Lou de TARADE\Documents\GitHub\LearningC\LearningC\marathon.c(11,21): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Lou de TARADE\Documents\GitHub\LearningC\LearningC\marathon.c(12,9): warning C4477: 'printf' : format string '%lf' requires an argument of type 'double', but variadic argument 1 has type 'int'
+  printDays.c
+  reversesString.c
+  sealAverage.c
+C:\Users\Lou de TARADE\Documents\GitHub\LearningC\LearningC\sealAverage.c(24,13): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lou de TARADE\Documents\GitHub\LearningC\LearningC\sealAverage.c(34,9): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  sine.c
+C:\Users\Lou de TARADE\Documents\GitHub\LearningC\LearningC\sine.c(13,2): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  sphere.c
+C:\Users\Lou de TARADE\Documents\GitHub\LearningC\LearningC\sphere.c(7,2): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  test.c
+C:\Users\Lou de TARADE\Documents\GitHub\LearningC\LearningC\test.c(66,9): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lou de TARADE\Documents\GitHub\LearningC\LearningC\test.c(71,13): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lou de TARADE\Documents\GitHub\LearningC\LearningC\test.c(57,24): warning C4101: 'n2': unreferenced local variable
+C:\Users\Lou de TARADE\Documents\GitHub\LearningC\LearningC\test.c(57,20): warning C4101: 'n1': unreferenced local variable
+  Generating Code...
