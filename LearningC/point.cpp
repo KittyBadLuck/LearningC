@@ -7,7 +7,8 @@ using namespace ::std;
 
 class point {
 public:
-	point(double x=0.0, double y = 0.0): x(x), y(y){}//constructor
+	point();
+	point(double u): x(u), y(0.0){}//constructor
 	point(double x, double y) { this->x = x; this->y = y; }
 	double getx() const {return x;}
 	double gety() const { return y; }
@@ -18,7 +19,10 @@ private:
 	double x, y;
 };
 
-
+point::operator double()
+{
+	return sqrt(x * x + y * y);
+}
 point operator+ (point& p1, point& p2)
 {
 	point sum = { p1.getx() + p2.getx() , p1.gety() + p2.gety()};
@@ -33,9 +37,13 @@ ostream& operator<< (ostream& out, const point& p)
 
 int main()
 {
-	point a = { 3.5, 2.5 }, b = { 2.5, 4.5 }, c;
+	//point a = { 3.5, 2.5 }, b = { 2.5, 4.5 }, c;
+	point s;
+	double d = 3.5;
 
-	cout << "a = " << a << " b = " << b << endl;
-	cout << "sum = " << a + b << endl;
+	s = d; //implicit conversion
+	s = static_cast<point>(d); //explicit
+	//cout << "a = " << a << " b = " << b << endl;
+	//cout << "sum = " << a + b << endl;
 	return 0;
 }

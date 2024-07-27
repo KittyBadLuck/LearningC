@@ -19,6 +19,9 @@
     <Filter Include="Fichiers sources\cpp">
       <UniqueIdentifier>{5114cf9e-ddbf-48cf-987c-d7391303aa26}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Fichiers sources\classExample">
+      <UniqueIdentifier>{3b177b20-c656-4aef-a02f-3587c74afa4b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="albatros.c">
@@ -106,6 +109,75 @@
       <Filter>Fichiers sources\cpp</Filter>
     </ClCompile>
     <ClCompile Include="isConnectedGraph.cpp">
+      <Filter>Fichiers sources\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>Fichiers sources\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="MST.cpp">
+      <Filter>Fichiers sources\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="STL_example.cpp">
+      <Filter>Fichiers sources\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="vector_ex.cpp">
+      <Filter>Fichiers sources\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="STLinputFile.cpp">
+      <Filter>Fichiers sources\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="iterator.cpp">
+      <Filter>Fichiers sources\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="randomGraph.cpp">
+      <Filter>Fichiers sources\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="MapExample.cpp">
+      <Filter>Fichiers sources\classExample</Filter>
+    </ClCompile>
+    <ClCompile Include="forEach.cpp">
+      <Filter>Fichiers sources\classExample</Filter>
+    </ClCompile>
+    <ClCompile Include="numerical.cpp">
+      <Filter>Fichiers sources\classExample</Filter>
+    </ClCompile>
+    <ClCompile Include="pokerProbability.cpp">
+      <Filter>Fichiers sources\classExample</Filter>
+    </ClCompile>
+    <ClCompile Include="palindrome.cpp">
+      <Filter>Fichiers sources\classExample</Filter>
+    </ClCompile>
+    <ClCompile Include="map.cpp">
+      <Filter>Fichiers sources\classExample</Filter>
+    </ClCompile>
+    <ClCompile Include="generator.cpp">
+      <Filter>Fichiers sources\classExample</Filter>
+    </ClCompile>
+    <ClCompile Include="functionAdapter.cpp">
+      <Filter>Fichiers sources\classExample</Filter>
+    </ClCompile>
+    <ClCompile Include="tuple_random_lambda.cpp">
+      <Filter>Fichiers sources\classExample</Filter>
+    </ClCompile>
+    <ClCompile Include="mc_2.cpp">
+      <Filter>Fichiers sources\classExample</Filter>
+    </ClCompile>
+    <ClCompile Include="point_class.cpp">
+      <Filter>Fichiers sources\classExample</Filter>
+    </ClCompile>
+    <ClCompile Include="point2.cpp">
+      <Filter>Fichiers sources\classExample</Filter>
+    </ClCompile>
+    <ClCompile Include="grad_old.cpp">
+      <Filter>Fichiers sources\classExample</Filter>
+    </ClCompile>
+    <ClCompile Include="grad_new.cpp">
+      <Filter>Fichiers sources\classExample</Filter>
+    </ClCompile>
+    <ClCompile Include="virt_f.cpp">
+      <Filter>Fichiers sources\classExample</Filter>
+    </ClCompile>
+    <ClCompile Include="hex.cpp">
       <Filter>Fichiers sources\cpp</Filter>
     </ClCompile>
   </ItemGroup>
