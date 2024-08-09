@@ -128,6 +128,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="albatros.c" />
+    <ClCompile Include="assert-ex1.cpp" />
+    <ClCompile Include="assert-ex2.cpp" />
     <ClCompile Include="atomicElement.c" />
     <ClCompile Include="binaryTree.c" />
     <ClCompile Include="cards.c" />
@@ -136,6 +138,7 @@
     <ClCompile Include="dice.cpp" />
     <ClCompile Include="Dijikstra.cpp" />
     <ClCompile Include="doubleLinkedList.c" />
+    <ClCompile Include="except-ex1.cpp" />
     <ClCompile Include="exo.c" />
     <ClCompile Include="fahrenheitToCelsius.c" />
     <ClCompile Include="fileDoubleSpace.c" />
@@ -154,28 +157,37 @@
     <ClCompile Include="map.cpp" />
     <ClCompile Include="MapExample.cpp" />
     <ClCompile Include="marathon.c" />
+    <ClCompile Include="mc-2.cpp" />
     <ClCompile Include="mc_2.cpp" />
     <ClCompile Include="milesToKilometers.cpp" />
+    <ClCompile Include="movesemantics.cpp" />
     <ClCompile Include="MST.cpp" />
+    <ClCompile Include="my_container.cpp" />
     <ClCompile Include="newFeature.cpp" />
     <ClCompile Include="numerical.cpp" />
     <ClCompile Include="palindrome.cpp" />
+    <ClCompile Include="pickRandomElement.cpp" />
     <ClCompile Include="point.cpp" />
     <ClCompile Include="point2.cpp" />
     <ClCompile Include="point_class.cpp" />
     <ClCompile Include="pokerProbability.cpp" />
+    <ClCompile Include="polish-v2.cpp" />
     <ClCompile Include="printDays.c" />
     <ClCompile Include="randomGraph.cpp" />
     <ClCompile Include="reversesString.c" />
     <ClCompile Include="sealAverage.c" />
     <ClCompile Include="sine.c" />
     <ClCompile Include="slist.cpp" />
+    <ClCompile Include="smt_ptr.cpp" />
     <ClCompile Include="sphere.c" />
     <ClCompile Include="STLinputFile.cpp" />
     <ClCompile Include="STL_example.cpp" />
     <ClCompile Include="sumTemplate.cpp" />
+    <ClCompile Include="tarray.cpp" />
     <ClCompile Include="test.c" />
     <ClCompile Include="test.cpp" />
+    <ClCompile Include="test_v5.cpp" />
+    <ClCompile Include="threading.cpp" />
     <ClCompile Include="tuple_random_lambda.cpp" />
     <ClCompile Include="vector_ex.cpp" />
     <ClCompile Include="virt_f.cpp" />

@@ -1,53 +1,26 @@
-
-
-//What does the following print
-
 #include <iostream>
-
-#include <vector>
-
-#include <numeric>
 
 using namespace std;
 
+class B {
+public:
+	int i;
+	virtual void print_i()const { cout << i << "inside B" << endl; }
+};
+
+class D : public B {
+public:
+	void print_i()const { cout << i << "inside D" << endl; }//virtual
+};
+
 int main()
-
 {
+	B b;
+	B* pb = &b;	//point at a B object
+	D f;
 
-    vector<int> data(5, 1);
-
-    int sum{ 0 };
-
-    cout << sum << endl;
-
-    for (auto element : data)
-
-        sum += element;
-
-    cout << sum << endl;
-
-    for (auto p = ++data.begin(); p != --data.end(); ++p)
-    {
-        sum += *p;
-        cout << *p << " sum : " << sum <<endl;
-    }
-
-
-
-    cout << sum << endl;
-
-    sum = 0;
-
-    data.push_back(2);
-
-    data.push_back(3);
-
-    for (auto element : data)
-
-        sum += element;
-
-    cout << sum << endl;
-
-    cout << accumulate(data.begin(), data.end(), data[0]) << endl;
-
+	f.i = 1 + (b.i = 1);
+	pb->print_i(); //callB::print_i()
+	pb = &f;		//point at a D object
+	pb->print_i();	//call D::print_i()
 }

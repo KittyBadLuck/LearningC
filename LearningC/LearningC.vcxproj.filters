@@ -22,6 +22,12 @@
     <Filter Include="Fichiers sources\classExample">
       <UniqueIdentifier>{3b177b20-c656-4aef-a02f-3587c74afa4b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Fichiers sources\classExample\module3">
+      <UniqueIdentifier>{7aa1f778-a2d0-49b0-af64-e48642395cc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\classExample\module4">
+      <UniqueIdentifier>{5c607393-3840-4ec1-a9f1-ab897c0f631c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="albatros.c">
@@ -179,6 +185,42 @@
     </ClCompile>
     <ClCompile Include="hex.cpp">
       <Filter>Fichiers sources\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="movesemantics.cpp">
+      <Filter>Fichiers sources\classExample\module3</Filter>
+    </ClCompile>
+    <ClCompile Include="my_container.cpp">
+      <Filter>Fichiers sources\classExample\module3</Filter>
+    </ClCompile>
+    <ClCompile Include="tarray.cpp">
+      <Filter>Fichiers sources\classExample\module3</Filter>
+    </ClCompile>
+    <ClCompile Include="polish-v2.cpp">
+      <Filter>Fichiers sources\classExample\module3</Filter>
+    </ClCompile>
+    <ClCompile Include="smt_ptr.cpp">
+      <Filter>Fichiers sources\classExample\module3</Filter>
+    </ClCompile>
+    <ClCompile Include="test_v5.cpp">
+      <Filter>Fichiers sources\classExample\module3</Filter>
+    </ClCompile>
+    <ClCompile Include="pickRandomElement.cpp">
+      <Filter>Fichiers sources\classExample\module4</Filter>
+    </ClCompile>
+    <ClCompile Include="mc-2.cpp">
+      <Filter>Fichiers sources\classExample\module4</Filter>
+    </ClCompile>
+    <ClCompile Include="assert-ex1.cpp">
+      <Filter>Fichiers sources\classExample\module4</Filter>
+    </ClCompile>
+    <ClCompile Include="assert-ex2.cpp">
+      <Filter>Fichiers sources\classExample\module4</Filter>
+    </ClCompile>
+    <ClCompile Include="except-ex1.cpp">
+      <Filter>Fichiers sources\classExample\module4</Filter>
+    </ClCompile>
+    <ClCompile Include="threading.cpp">
+      <Filter>Fichiers sources\classExample\module4</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
