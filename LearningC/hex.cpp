@@ -13,6 +13,8 @@ Lou de Tarade
 #include <limits>
 using namespace std;
 
+inline double prob() { return (1.0 * rand() / RAND_MAX); } //prob between 0 and 1
+
 enum class Color { RED, BLUE, BLANK};
 
 ostream& operator<<(ostream& out, Color c)
@@ -25,58 +27,6 @@ ostream& operator<<(ostream& out, Color c)
 	}
 	return out;
 }
-//PRIORITT QUEUE
-template  <typename T>
-class PriorityQueue
-{
-public:
-	PriorityQueue() = default;
-	~PriorityQueue() { clear(); }
-	void clear() { Q.clear(); };
-	bool contains(T elem)
-	{
-		for (int i = 0; i < this->size(); i++)
-			if (this->Q[i].value == elem)
-				return true; //verify value
-		return false;//if no value found -> return false
-	}
-	bool insertElem(T value, double priority)
-	{
-		if (this->contains(value))
-			return false;
-		this->Q.push_back(HeapNode(value, priority));
-		make_heap(this->Q.begin(), this->Q.end(), compare_Heap());
-		sort_heap(this->Q.begin(), this->Q.end(), compare_Heap());
-
-		return true;
-	}
-
-	T top() { return Q.front().value; } //return top node
-	int size() { return Q.size(); } //return size of queue
-	T bottom() { return Q.back().value; } //return bottom node
-	void print()
-	{
-		for (auto elem : Q)
-		{
-			cout << elem.value << " priority : " << elem.priority << endl;
-		}
-	}
-
-private:
-	struct HeapNode //struct so i can have custom priority for each nodes
-	{
-		T value;
-		double priority;
-		HeapNode(T value, double priority) : value(value), priority(priority) {}
-	};
-	struct compare_Heap { //struct to compare the Nodes by priority and make a priority queue
-		bool operator()(HeapNode const& a, HeapNode const& b) const {
-			return a.priority < b.priority;
-		}
-	};
-	vector<HeapNode> Q;
-};
-
 
 //NODE
 class Node
@@ -106,15 +56,18 @@ class Board
 {
 public:
 	Board(int size = 11);
+	Board(const Board& b); //copy constructor
 	~Board() { board.clear(); }
 	void printBoard(); 
 	bool place(int x, int y, Color c);
 	vector<Node*> getNeighbors(int x, int y, Color c = Color::BLANK); //return the surrounding tiles , of corresponding colors
 	bool is_legal(int x, int y);
-	bool hasWin(int x, int y, Color c); // verify if a win is found from the last postion
+	bool isWon(Color c); //return who won on a filled board.
+	void randomFill(); //fill the remaining board with random color in equal mesure
 	int getSize() { return size; }
 	Node* getNode(int x, int y) { return board[x][y]; }
-private:
+	vector<Node*> getLegalMoves(); //return all legal moves;
+protected:
 	int size;
 	string line;
 	vector<vector<Node*>> board;
@@ -125,8 +78,12 @@ class AI
 {
 public:
 	~AI() { moves.clear(); }
-	pair<int, int> nextMove(Board& board, Color comp);
-private:
+	pair<int, int> nextMove(Board& board, Color comp); //return the next most optimal move
+	double moveWinProbability(Board& board, int x, int y, int trials = 1000);//calculate the probability that a move will win using MonteCarlo
+	void setColor(Color color) { c = color; }
+	Color getColor() { return c; }
+protected:
+	Color c;
 	bool minVisited, maxVisited;
 	vector<Node*> moves;
 };
@@ -137,8 +94,8 @@ class Game
 public:
 	void play();
 	void setup(); //set up size of board and ask to choose colors
-	bool playerTurn();
-	bool computerTurn(); 
+	void playerTurn();
+	void computerTurn(); 
 	void win(Color winner); //print win or loose message
 private:
 	Color player;
@@ -168,6 +125,16 @@ Board::Board(int size) : size(size), board(vector<vector<Node*>>(size))
 			board[i].push_back(new Node(i, j));
 		}	
 	}	
+}
+
+Board::Board(const Board& b) :Board(b.size)
+{
+	for (int i = 0; i < b.size; i++)
+		for (int j = i; j < b.size; j++)
+		{
+			board[i][j]->setC(b.board[i][j]->getC());
+		}
+			
 }
 
 bool Board::place(int x, int y, Color c)
@@ -261,62 +228,94 @@ vector<Node*> Board::getNeighbors(int x, int y, Color c)
 	return nb;
 }
 
-bool Board::hasWin(int x, int y, Color c) //verify if the border of corresponding colors are touching
+vector<Node*> Board::getLegalMoves()
+{
+	vector<Node*> moves;
+	for (auto v : board)
+		for (auto n : v)
+			if (n->getC() == Color::BLANK)
+				moves.push_back(n);
+
+	return moves;
+}
+
+bool Board::isWon(Color c)
 {
 	vector<Node*> closeSet;
 	vector<Node*> openSet;
 
-	closeSet.push_back(board[x][y]);
-
-	vector<Node*> nb = getNeighbors(x,y,c);
-	openSet.insert(openSet.end(), nb.begin(), nb.end());
-
-	bool minVisited = false, maxVisited= false; //verify if one edge is found;
-	if (c == Color::BLUE)
+	for (int i = 0; i < size; i++) //check for all place in the top row
 	{
-		if (y == 0) minVisited = true;
-		if (y == (size - 1)) maxVisited = true;
-	}
-	else if (c == Color::RED)
-	{
-		if (x == 0) minVisited = true;
-		if (x == (size - 1)) maxVisited = true;
-	}
-
-	while (!openSet.empty())
-	{
-		closeSet.push_back(openSet.back());
-		openSet.pop_back();
-		if (c == Color::BLUE)
-		{
-			if (closeSet.back()->getY() == 0) 
-				minVisited = true;
-			if (closeSet.back()->getY() == (size - 1)) 
-				maxVisited = true;
+		int cnt;
+		if (c == Color::BLUE) {
+			cnt = count(closeSet.begin(), closeSet.end(), board[i][0]);
 		}
-		else if (c == Color::RED)
+		else
 		{
-			if (closeSet.back()->getX() == 0) 
-				minVisited = true;
-			if (closeSet.back()->getX() == (size - 1))
-				maxVisited = true;
+			cnt = count(closeSet.begin(), closeSet.end(), board[0][i]);
 		}
-		if (minVisited && maxVisited)
-			return true; //true if both end are reached
+		
+		if (cnt > 0)
+			continue; //skip iteration if it was already a neighbors to another one
 
-		nb = getNeighbors(closeSet.back()->getX(), closeSet.back()->getY(), c);
-		for (auto n : nb)
+		vector<Node*> nb = getNeighbors(i, 0, Color::BLUE);
+		openSet.insert(openSet.end(), nb.begin(), nb.end());
+
+		while (!openSet.empty())
 		{
-			//verify if item is in close or open set
-			int cnt = count(openSet.begin(), openSet.end(), n); 
-			cnt += count(closeSet.begin(), closeSet.end(), n);
-			
-			if (cnt == 0)
-				openSet.push_back(n);
+			closeSet.push_back(openSet.back());
+			openSet.pop_back();
+
+			if (c == Color::BLUE) {
+				if (closeSet.back()->getY() == (size - 1)) //if reached bottom of the board, then its a win for blue
+					return true;
+			}
+			else
+			{
+				if (closeSet.back()->getX() == (size - 1)) //if reached bottom of the board, then its a win for blue
+					return true;
+			}
+
+			nb = getNeighbors(closeSet.back()->getX(), closeSet.back()->getY(), Color::BLUE);
+			for (auto n : nb) //add new neighbors
+			{
+				//verify if item is in close or open set
+				int cnt = count(openSet.begin(), openSet.end(), n);
+				cnt += count(closeSet.begin(), closeSet.end(), n);
+
+				if (cnt == 0)
+					openSet.push_back(n);
+			}
 		}
 	}
 
-	return false;
+	return false; //if arrives here, then win for Red
+}
+
+void Board::randomFill()
+{
+	int blue = (size*size) / 2 + (size % 2); //how many blue to place
+	int red = (size*size) / 2; //how many red to place
+
+	for( auto v : board)
+		for(auto n : v)
+			switch (n->getC())
+			{
+			case Color::RED:red--; break;
+			case Color::BLUE: blue--; break;
+			case Color::BLANK: 
+				if ((red == 0) || (prob() <= 0.5 && blue != 0))
+				{
+					n->setC(Color::BLUE);
+					blue--;
+				}
+				else
+				{
+					n->setC(Color::RED);
+					red--;
+				}
+				break;
+			}
 
 }
 
@@ -324,6 +323,7 @@ bool Board::hasWin(int x, int y, Color c) //verify if the border of correspondin
 pair<int, int> AI::nextMove(Board& board, Color comp)
 {
 	pair<int, int> next;
+	double bestProb = 0.0;
 	if (moves.empty()) //if first move, get one empty node in the middle
 	{
 		int half = board.getSize()/2;
@@ -337,49 +337,38 @@ pair<int, int> AI::nextMove(Board& board, Color comp)
 	}
 	else
 	{
-		PriorityQueue<Node*> possible_moves;
-		for (auto m : moves)
+		for (auto m : board.getLegalMoves())
 		{
-			vector<Node*> nb = board.getNeighbors(m->getX(), m->getY());
-			//add all neighbors to a priority queue, their value depending of the Color (to get the min or max possible move)
-			for (auto n : nb) 
+			double prob = moveWinProbability(board, m->getX(), m->getY());
+			
+			if (prob > bestProb)
 			{
-				if (comp == Color::BLUE)
-				{
-					possible_moves.insertElem(n, n->getY());
-				}
-				else
-				{
-					possible_moves.insertElem(n, n->getX());
-				}
+				next.first = m->getX();
+				next.second = m->getY();
+				bestProb = prob;
 			}
 		}
-		if(minVisited == true) //if the minimum was reached, search for the max element, else the min
-		{
-			cout << "get max " << endl;
-			next.first = possible_moves.bottom()->getX();
-			next.second = possible_moves.bottom()->getY();
-		}
-		else
-		{
-			cout << "get min" << endl;
-			next.first = possible_moves.top()->getX();
-			next.second = possible_moves.top()->getY();
-		}
 	}
-	if (comp == Color::BLUE)
-	{
-		if (next.second == 0) minVisited = true;
-		else if (next.second == (board.getSize()-1)) maxVisited = true;
-	}
-	else
-	{
-		if (next.first == 0) minVisited = true;
-		else if (next.first == (board.getSize()-1)) maxVisited = true;
-	}
-
 	moves.push_back(board.getNode(next.first, next.second));
 	return next;
+}
+
+double AI::moveWinProbability(Board& board, int x, int y, int trials)
+{
+	Board copyB(board); //copied board 
+	copyB.place(x, y, c);
+	int win = 0;
+
+
+	for (int i = 0; i < 1; i++)
+	{
+		srand(time(0) + i);//new random seed
+		copyB.randomFill();
+		if (copyB.isWon(c))
+			win++;
+	}
+
+	return (1.0 * (double)win) / trials;
 }
 
 //------GAME Methods---------
@@ -390,37 +379,32 @@ void Game::play()
 	setup();
 
 	std::cout << "Setup finished! we can start to play" << endl;
+	bool pTurn;
 
+	if (player == Color::BLUE)
+		pTurn = true;
 	while (true)
 	{
-		if (player == Color::BLUE)
+		board.printBoard();
+		if (pTurn)
 		{
-			if (playerTurn())
+			playerTurn();
+			pTurn = false;
+			if (board.isWon(player))
 			{
 				win(player);
 				break;
-			}
-			if (computerTurn())
-			{
-				win(computer); 
-				break;
-			}
-				
+			}	
 		}
 		else
 		{
-			if (computerTurn())
+			computerTurn();
+			pTurn = true;
+			if (board.isWon(computer))
 			{
-				win(computer); 
+				win(computer);
 				break;
-			}
-				
-			if (playerTurn())
-			{
-				win(player); 
-				break;
-			}
-				
+			}	
 		}
 	}
 }
@@ -483,13 +467,14 @@ void Game::setup()
 
 void Game::win(Color winner)
 {
+	board.printBoard();
 	if (winner == player)
 		cout << "You won ! Well played" << endl << endl;
 	else
 		cout << "You lost, sorry" << endl << endl;
 }
 
-bool Game::playerTurn() //player turn, return true for a win
+void Game::playerTurn() //player turn, return true for a win
 {
 	int x = -1, y =-1;
 	bool legal = false;
@@ -511,24 +496,14 @@ bool Game::playerTurn() //player turn, return true for a win
 	}
 	cout << "You played " << x << " " << y << endl;
 	board.place(x, y, player);
-	board.printBoard();
-	if (board.hasWin(x, y, player))
-		return true;
-	return false;
+
 }
 
-bool Game::computerTurn() //computer turn, return false for a win
+void Game::computerTurn() //computer turn, return false for a win
 {
 	cout << "Computer turn" << endl;
 	pair<int, int> next = computerAI.nextMove(board, computer);
 	board.place(next.first, next.second, computer);
 	cout << "Computer played " << next.first << " , " << next.second << endl;
-
-	board.printBoard();
-
-	if (board.hasWin(next.first, next.second, computer))
-		return true;
-	return false;
-		
 }
 
