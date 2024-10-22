@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C96345CB-F7A9-411F-9808-4E35AFA19BD7}|LearningC\\LearningC.vcxproj|C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C96345CB-F7A9-411F-9808-4E35AFA19BD7}|LearningC\\LearningC.vcxproj|solutionrelative:LearningC\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C96345CB-F7A9-411F-9808-4E35AFA19BD7}|LearningC\\LearningC.vcxproj|C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\hex.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C96345CB-F7A9-411F-9808-4E35AFA19BD7}|LearningC\\LearningC.vcxproj|solutionrelative:LearningC\\hex.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -22,11 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "test.cpp",
+              "DocumentMoniker": "C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\test.cpp",
+              "RelativeDocumentMoniker": "LearningC\\test.cpp",
+              "ToolTip": "C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\test.cpp",
+              "RelativeToolTip": "LearningC\\test.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-12T16:22:42.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Dijikstra.cpp",
               "DocumentMoniker": "C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\Dijikstra.cpp",
               "RelativeDocumentMoniker": "LearningC\\Dijikstra.cpp",
@@ -34,12 +51,11 @@
               "RelativeToolTip": "LearningC\\Dijikstra.cpp",
               "ViewState": "AQIAAGIAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-09T15:18:00.457Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-09T15:18:00.457Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "my_container.cpp",
               "DocumentMoniker": "C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\my_container.cpp",
               "RelativeDocumentMoniker": "LearningC\\my_container.cpp",
@@ -47,18 +63,17 @@
               "RelativeToolTip": "LearningC\\my_container.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-09T15:01:37.415Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-09T15:01:37.415Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "hex.cpp",
               "DocumentMoniker": "C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\hex.cpp",
               "RelativeDocumentMoniker": "LearningC\\hex.cpp",
               "ToolTip": "C:\\Users\\Lou de TARADE\\Documents\\GitHub\\LearningC\\LearningC\\hex.cpp",
               "RelativeToolTip": "LearningC\\hex.cpp",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAIkAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-08-09T14:49:57.712Z",
               "EditorCaption": ""

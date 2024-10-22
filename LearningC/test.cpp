@@ -1,26 +1,28 @@
 #include <iostream>
-
 using namespace std;
 
-class B {
+class Animal {
 public:
-	int i;
-	virtual void print_i()const { cout << i << "inside B" << endl; }
+    virtual void speak() = 0;
+    virtual  void purr() { cout << "Purr\n"; }
 };
-
-class D : public B {
+class Cat : public Animal {
 public:
-	void print_i()const { cout << i << "inside D" << endl; }//virtual
+    void speak() { cout << "Meow\n"; purr(); }
 };
+class Lion : public Cat {
+public:
+    void speak() { cout << "ROAR\n"; }
+    void purr() { cout << "ROAR\n"; }
+};
+int main() {
+    Animal* c = new Cat();
+    Cat napster;
+    Lion googly;
 
-int main()
-{
-	B b;
-	B* pb = &b;	//point at a B object
-	D f;
+    c->speak();
 
-	f.i = 1 + (b.i = 1);
-	pb->print_i(); //callB::print_i()
-	pb = &f;		//point at a D object
-	pb->print_i();	//call D::print_i()
+    //napster.speak();
+    //googly.speak();
+    //return 0;
 }
